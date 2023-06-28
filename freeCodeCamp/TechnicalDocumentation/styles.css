@@ -1,0 +1,34 @@
+#navbar
+{
+  position:fixed;
+  top:-10px;
+  left:0px;
+ 
+}
+main
+{
+  position:absolute;
+  margin-left:250px;
+}
+
+@media (max-width:500px) {
+  #navbar {
+    position:absolute;
+    width:50%;
+    top:40px;
+  }
+  main{
+    margin-left:175px;
+  }
+}
+code
+{
+  background-color: lightgrey;
+}
+
+.nav-link{
+  display:block;
+   border:1px solid black;
+   padding:5px;
+   
+}
